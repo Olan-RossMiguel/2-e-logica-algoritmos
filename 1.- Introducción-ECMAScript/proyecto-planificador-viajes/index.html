@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Viajes</title>
+</head>
+<body>
+    <h1>Registro de Viaje</h1>
+
+    <!-- Formulario para ingresar los detalles del viaje -->
+    <form id="formularioViaje">
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required>
+        <br><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+
+        <label for="transporte">Transporte:</label>
+        <select id="transporte" name="transporte" required>
+            <option value="Avión">Avión</option>
+            <option value="Tren">Tren</option>
+            <option value="Barco">Barco</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Registrar Viaje</button>
+    </form>
+
+    <h2>Itinerario del Viaje</h2>
+    <div id="itinerario"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
+
