@@ -38,4 +38,4 @@ function palabraMasLarga(texto) {
 }
 
 console.log(palabraMasLarga("En el ensimismado de gozo, por fortuna divina, canta en jubilo, elocuencia y realidad benigna, no más que felicidad ante la realidad marchita . "));
-// Resultado: "algoritmo"
+// Resultado: "ensimismado"
